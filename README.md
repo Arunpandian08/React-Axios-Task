@@ -1,7 +1,7 @@
 # ✒ IN THIS REPOSITORY
 ## 📍CRUD Operation Using React and Axios 
 
-### You can see output in 📌[Netlify.com]()
+### You can see output in 📌[Netlify.com](https://react-axios-task-by-arun.netlify.app/)
 ![Getting Started](./public/output-img.jpg)
 
 + Here im using `routes` to Navigate between Components
