@@ -1,0 +1,47 @@
+.navbar>.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.nav-title{
+    color: #c3de14 !important;
+    font-family: Bebas Neue;
+    font-size: 2.5rem;
+    padding-bottom: 0px !important;
+}
+.second{
+    background: linear-gradient(95deg,black,lightgreen,black);
+    height: 8vh;
+}
+@media screen and (max-width:992px){
+    .second{
+        height:auto;
+    }
+}
+.nav-link{
+    color: #000000;
+    font-family: Anta;
+    font-size: 1.2rem;
+    padding: 10px 30px !important;
+}
+.nav-link:hover{
+    color: #da2020;
+    font-weight: 1000;
+    border-bottom: 3px solid #da2020;
+    transition: all 0.3s ease;
+}
+.nav-link:active{
+    color: #d0f338;
+}
+.navbar-expand-lg .navbar-collapse{
+    display: flex;
+    justify-content:center;
+}
+@media screen and (max-width:993px) {
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: space-around !important;
+    }
+}
